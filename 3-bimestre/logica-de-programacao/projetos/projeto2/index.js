@@ -1,13 +1,14 @@
-const cliente= "lucasAlmeida"
-const produto= "notebookGamer"
+const cliente="Lucas Almeida"
+const produto="Notebook Gamer"
 const preco=4500
 const quantidade=2
 const estoque=10
 const valorPago=9000
 const subtotal=(preco*quantidade) 
 let estoqueDisponivel
+
 if (quantidade<=estoque) {
-    estoqueDisponivel="Estoque disponivel"
+    estoqueDisponivel="Sim"
 } else {
     estoqueDisponivel="Estoque indisponível"
 }
@@ -15,7 +16,7 @@ let descontoPercentual
 let valorDesconto
 if(subtotal>=1000) {
     descontoPercentual=10
-    valorDesconto=subtotal*0.10
+    valorDesconto=(subtotal*0.10)
 } else {
     descontoPercentual=0
     valorDesconto=0
@@ -23,9 +24,9 @@ if(subtotal>=1000) {
 const valorFinal=(subtotal-valorDesconto)
 let pagamentoStatus
 if (valorPago>=valorFinal) {
-    pagamentoStatus= "pagamento aprovado"
+    pagamentoStatus= "Pagamento aprovado"
 } else {
-    pagamentoStatus="pagamento insuficiente"
+    pagamentoStatus="Pagamento insuficiente"
 }
 let troco
 if(valorPago>=valorFinal) {
@@ -35,10 +36,11 @@ if(valorPago>=valorFinal) {
 } 
 let statusPedido
 if(quantidade<=estoque) {
-    statusPedido="pedido disponível para a finalização"
+    statusPedido="Pedido disponível para finalização"
 } else {
     statusPedido="Pedido não pode ser finalizado por falta de estoque"
 }
+
 let resumo = `
 Cliente = ${cliente}
 Produto = ${produto}
