@@ -1,17 +1,17 @@
 const nome = "João Silva"
 const idade = 16
-const categoria = "Comun"
-const valorIngresso = 60
+const categoria = "comum"
 const possuiIngresso = true
-const valorPago = 50
 const impedido = false
+const valorIngresso = 60
+const valorPago = 50
 
 let idadeStatus
 let nivelAcesso
 let acessoStatus
 let pagamentoStatus
+let troco
 let statusParque
-let ingressoStatus
 
 if (idade >= 18) {
     idadeStatus = "Idade permitida"
@@ -19,13 +19,13 @@ if (idade >= 18) {
     idadeStatus = "Idade não permitida"
 }
 
-if (categoria === "Comun") {
+if (categoria === "salva-vidas" || categoria === "coordenador") {
+    nivelAcesso = "Acesso administrativo liberado"
+} else {
     nivelAcesso = "Acesso comum"
-} else if (categoria === "Salvavidas" || categoria === "Coordenador") {
-    nivelAcesso = "Acesso administrativo"
 }
 
-if (possuiIngresso && idade >= 18 && !impedido) {
+if (idade >= 18 && possuiIngresso && !impedido) {
     console.log("Entrada liberada")
     acessoStatus = true
 } else {
@@ -36,39 +36,31 @@ if (possuiIngresso && idade >= 18 && !impedido) {
 if (valorPago >= valorIngresso) {
     console.log("Pagamento aprovado")
     pagamentoStatus = "Pagamento aprovado"
+    troco = valorPago - valorIngresso
 } else {
     console.log("Pagamento insuficiente")
     pagamentoStatus = "Pagamento insuficiente"
-}
-
-if (valorPago >= valorIngresso) {
-    troco = valorPago - valorIngresso
-} else {
     troco = 0
 }
 
-if (acessoStatus) {
+if (acessoStatus && pagamentoStatus === "Pagamento aprovado") {
     console.log("Check-in do parque confirmado")
     statusParque = true
 } else {
     console.log("Check-in do parque não confirmado")
     statusParque = false
 }
-
+//resumo//
 const resumo = `
-nome: ${nome}
-idade: ${idade}
-categoria: ${categoria}
-possui ingresso: ${possuiIngresso}
-impedido: ${impedido}
-valor ingresso: ${valorIngresso}
-valor pago: ${valorPago}
-idade: ${idadeStatus}
-nivel de acesso: ${nivelAcesso}
-acesso: ${acessoStatus}
-pagamento: ${pagamentoStatus}
-troco: ${troco}
-parque: ${statusParque}
+Nome: ${nome}
+Categoria: ${categoria}
+Nível de acesso: ${nivelAcesso}
+Valor ingresso: ${valorIngresso}
+Valor pago: ${valorPago}
+Troco: ${troco}
+Acesso: ${acessoStatus}
+Pagamento: ${pagamentoStatus}
+Situação final: ${statusParque}
 `
 
 console.log(resumo)
@@ -89,4 +81,3 @@ module.exports = {
     statusParque,
     resumo
 }
-
