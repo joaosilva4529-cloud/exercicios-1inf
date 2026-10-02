@@ -114,3 +114,25 @@ jobs:
     - uses: actions/checkout@v4
     - run: npm install
     - run: npm test
+
+  aula31:
+  name: aula31
+  runs-on: ubuntu-latest
+  defaults:
+    run:
+      working-directory: 3-bimestre/logica-de-programacao/aula31
+  steps:
+    - uses: actions/checkout@v4
+    - run: npm install
+    - run: npm test
+
+  aula32:
+  name: aula32
+  runs-on: ubuntu-latest
+  defaults:
+    run:
+      working-directory: 3-bimestre/logica-de-programacao/aula32
+  steps:
+    - uses: actions/checkout@v4
+    - run: npm install
+    - run: npm test

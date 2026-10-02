@@ -1,0 +1,16 @@
+{
+  "name": "aula32",
+  "version": "1.0.0",
+  "description": "- Compreender o funcionamento do `switch`. - Entender quando utilizar `switch` em vez de vários `if/else`. - Utilizar `case`. - Utilizar `break`. - Utilizar `default`. - Trabalhar com diferentes possibilidades para um mesmo valor. - Aplicar `switch` em situações reais de sistemas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

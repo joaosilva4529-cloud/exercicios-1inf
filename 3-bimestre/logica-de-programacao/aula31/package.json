@@ -1,0 +1,16 @@
+{
+  "name": "aula31",
+  "version": "1.0.0",
+  "description": "- Revisar o funcionamento do `if`. - Entender que o `if` trabalha com valores `true` e `false`. - Compreender que muitas decisões podem ser simplificadas. - Conhecer o operador condicional ternário `? :`. - Utilizar o ternário em decisões simples. - Diferenciar situações em que o `if/else` é mais adequado das situações em que o ternário pode ser utilizado. - Aplicar o operador ternário em problemas reais.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

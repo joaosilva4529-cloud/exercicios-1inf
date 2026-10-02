@@ -21,7 +21,8 @@ Previsão para 23-set à 30-set | Quantidade de Indivíduos: 1 pessoas (3-5 min 
 - Prova Bimestral: previsão para final de setembro à começo de outubro
 - **⚠️ Projeto 1** - Prazo de Entrega 1: 28-ago (2,5 pt) | Prazo de Entrega 2: 01-set (1,5 pt)<br>
 - **✅ Projeto 2** - Prazo de Entrega 1: 17-set (2,5 pt) | Prazo de Entrega 2: 21-set (1,5 pt)<br>
-- **⚠️ Projeto 3** - Prazo de Entrega 1: 21-set (2,5 pt) | Prazo de Entrega 2: 24-set (1,5 pt)<br>
+- **✅ Projeto 3** - Prazo de Entrega 1: 21-set (2,5 pt) | Prazo de Entrega 2: 24-set (1,5 pt)<br>
+- **⚠️ Projeto 4** - Prazo de Entrega 1: 06-out (2,5 pt) | Prazo de Entrega 2: 08-out (1,5 pt)<br>
 
 ✅ Projeto corrigido
 ⚠️ Projeto a ser corrigido
