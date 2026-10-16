@@ -1,0 +1,19 @@
+{
+  "name": "aula02",
+  "version": "1.0.0",
+  "description": "Compreender o funcionamento do loop do...while, entender a diferença em relação ao while e utilizar o do...while quando o bloco precisa rodar ao menos uma vez.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

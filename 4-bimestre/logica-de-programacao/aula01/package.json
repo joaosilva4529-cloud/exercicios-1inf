@@ -1,0 +1,19 @@
+{
+  "name": "aula01",
+  "version": "1.0.0",
+  "description": "Compreender o funcionamento do loop while, entender a condição de parada e utilizar o while para repetir ações.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

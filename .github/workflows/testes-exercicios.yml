@@ -136,3 +136,91 @@ jobs:
     - uses: actions/checkout@v4
     - run: npm install
     - run: npm test
+
+  bim4-aula01:
+    name: 4bim-aula01
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 4-bimestre/logica-de-programacao/aula01
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm test
+
+  bim4-aula02:
+    name: 4bim-aula02
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 4-bimestre/logica-de-programacao/aula02
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm test
+
+  bim4-aula05:
+    name: 4bim-aula05
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 4-bimestre/logica-de-programacao/aula05
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm test
+
+  bim4-aula06:
+    name: 4bim-aula06
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 4-bimestre/logica-de-programacao/aula06
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm test
+
+  bim4-aula09:
+    name: 4bim-aula09
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 4-bimestre/logica-de-programacao/aula09
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm test
+
+  bim4-aula10:
+    name: 4bim-aula10
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 4-bimestre/logica-de-programacao/aula10
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm test
+
+  bim4-aula13:
+    name: 4bim-aula13
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 4-bimestre/logica-de-programacao/aula13
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm test
+
+  bim4-aula14:
+    name: 4bim-aula14
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 4-bimestre/logica-de-programacao/aula14
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm test
