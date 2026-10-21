@@ -1,0 +1,19 @@
+{
+  "name": "projeto6",
+  "version": "1.0.0",
+  "description": "Projeto 6 - Relatório de vendas da semana",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "aula06",
+  "version": "1.0.0",
+  "description": "Utilizar o loop for para percorrer intervalos maiores, combinar valores e aplicar condições dentro da repetição.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
