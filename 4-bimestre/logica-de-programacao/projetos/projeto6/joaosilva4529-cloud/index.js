@@ -1,43 +1,52 @@
 const prompt = require("prompt-sync")()
 
-const quantidadeDeDias = prompt("Digite a quantidade de dias") 
-const metaDiaria = Number ( prompt ("Digite a sua meta diária") )
-const totalVendido = Number ( prompt ("Digite o totalvendido") ) 
-//Quantidade de dias: 5
-//Meta diária: 100
-//Meta semanal: 530
-
-let i = 1
-
-for (let i <= metaDiaria; 1++) { 
-  console.log(totalVendido)
-} 
-console.log("Seu total de vendas foi" + let totalVendido)
-
-//o sistema deve usar um for de 1 até a quantidade de dias.
-//  A cada repetição, pergunte a venda daquele dia (Venda do dia 1: , Venda do dia 2: , ...) e some o valor ao total 
-// vendido.
+const quantidadeDeDias = Number (prompt("Digite a quantidade de dias: "))
+const metaDiaria = Number(prompt("Digite a sua meta diária: "))
+const metaSemanal = Number(prompt("Digite a meta semanal: "))
 
 
+let totalVendido = 0
+let diasAcimaDaMeta = 0
+let melhorDia = 0
 
+for (let i = 1; i <= quantidadeDeDias; i++) {
+  let vendaDia = Number(prompt("Digite a venda do dia: "))
+if (vendaDia >= metaDiaria ) {
+  diasAcimaDaMeta++
+}
 
+if ( vendaDia > melhorDia ) {
+  melhorDia = vendaDia
+}
 
+  totalVendido = (totalVendido + vendaDia)
+}
 
+const mediaVendas = (totalVendido / quantidadeDeDias)
 
+let situacaoSemana = totalVendido >= metaSemanal?"Meta semanal atingida" : "Meta semanal não atingida"  
 
-
-
-
+const resumo = `
+quantidadeDeDias: ${quantidadeDeDias}
+metaDiaria: ${metaDiaria}
+metaSemanal: ${metaSemanal}
+totalVendido: ${totalVendido}
+mediaVendas: ${mediaVendas}
+diasAcimaDaMeta ${diasAcimaDaMeta}
+melhorDia: ${melhorDia}
+situacaoSemana: ${situacaoSemana}
+`
+console.log(resumo)
 
 
 module.exports = {
-    quantidadeDeDias,
-    metaDiaria,
-    metaSemanal,
-    totalVendido,
-    mediaVendas,
-    diasAcimaDaMeta,
-    melhorDia,
-    situacaoSemana,
-    resumo
+  quantidadeDeDias,
+  metaDiaria,
+  metaSemanal,
+  totalVendido,
+  mediaVendas,
+  diasAcimaDaMeta,
+  melhorDia,
+  situacaoSemana,
+  resumo
 }
