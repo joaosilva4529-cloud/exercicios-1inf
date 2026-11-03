@@ -1,0 +1,19 @@
+{
+  "name": "aula09",
+  "version": "1.0.0",
+  "description": "Compreender operações básicas de array, percorrer arrays com loop, ordenar e iterar valores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
