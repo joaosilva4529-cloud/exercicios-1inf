@@ -1,0 +1,19 @@
+{
+  "name": "aula10",
+  "version": "1.0.0",
+  "description": "Compreender o que são objetos em JavaScript, acessar propriedades e alterar dados dentro de um objeto.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
