@@ -1,0 +1,19 @@
+{
+  "name": "aula13",
+  "version": "1.0.0",
+  "description": "Compreender como usar uma função, passar parâmetros, retornar valores e aplicar retorno condicional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
