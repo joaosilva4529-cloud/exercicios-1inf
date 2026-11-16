@@ -10,4 +10,5 @@ while ( caixas <= meta) {
     caixas = caixas + 1
 }
 
+module.exports = caixas
 
